@@ -1,13 +1,13 @@
 <html>
     <head>
-        <script src="https://rawgit.com/aframevr/aframe/33c3232/dist/aframe-master.min.js"></script>
+        <script src="https://rawgit.com/aframevr/aframe/3f116d9/dist/aframe-master.min.js"></script>
         <script src="https://unpkg.com/aframe-motion-capture-components/dist/aframe-motion-capture-components.min.js"></script>
         <script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v3.9.0/dist/aframe-extras.min.js"></script>
-        <script src="https://unpkg.com/super-hands@1.0.1/dist/super-hands.min.js"></script>
+        <!-- <script src="https://unpkg.com/super-hands@1.0.1/dist/super-hands.min.js"></script> -->
         <script src="https://unpkg.com/aframe-cubemap-component@0.1.2/dist/aframe-cubemap-component.min.js"></script>
         <script src="https://etiennepinchon.github.io/aframe-rounded/lib/rounded.js"></script>
         <!-- Custom Javascript Components -->
-        <script src="components/utils.js"></script>
+        <!-- <script src="components/utils.js"></script>
         <script src="components/alert.js"></script>
         <script src="components/avatar.js"></script>
         <script src="components/bones.js"></script>
@@ -20,12 +20,12 @@
         <script src="components/menuable.js"></script>
         <script src="components/objectmenu.js"></script>
         <script src="components/notification.js"></script>
-        <script src="components/stacker.js"></script>
+        <script src="components/stacker.js"></script> -->
     </head>
     <body>
         <a-scene avatar-recorder>
             <a-assets>
-                <img id="skyTexture" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" crossorigin="true"/>
+                <img id="skyTexture" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/city.jpg">
                 <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="true"/>
             </a-assets>
             <a-sky src="#skyTexture"></a-sky>
